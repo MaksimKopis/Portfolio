@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&family=Playwrite+NL:wght@100..400&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="Img/зображення_viber_2023-10-16_00-19-58-034.jpg" alt="" class="my_photo"data-aos="fade-right"data-aos-duration="3000"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+        </div>
+        <!-- <hr class="line"> -->
+        <div class="line"></div>
+        <div class="right">
+            <div class="right_box"data-aos="fade-left"data-aos-duration="3000"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500">
+                    <div class="right_text">
+                        <div class="right_text_headrs">
+                            <h2 class="header_me">Максим Копись</h2>
+                            <h1 class="sub_header">
+                                web-deverloper baced in Creator It academy
+                            </h1>
+                        </div>
+                    <div class="right_text_subtext">
+                        <p class="subtext">
+                            Привіт! Мене звати Максим. Я з міста Борислав. Я навчаюсь в IT сфері уже 7 місяців. За цей період я вже вивчив (html,css,scss,) <br> Ось мої проєкти 
+                        </p>
+                    </div>
+                    </div>
+            <div class="box_buttons">
+                    <!-- <div class="buttons"> -->
+                        <a href="./portfolio.html">
+                        <button class="blob-btn">
+                          My projects
+                          <span class="blob-btn__inner">
+                            <span class="blob-btn__blobs">
+                              <span class="blob-btn__blob"></span>
+                              <span class="blob-btn__blob"></span>
+                              <span class="blob-btn__blob"></span>
+                              <span class="blob-btn__blob"></span>
+                            </span>
+                          </span>
+                        </button>
+                        <br/>
+                      
+                      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                        <defs>
+                          <filter id="goo">
+                            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+                            <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                          </filter>
+                        </defs>
+                      </svg>
+                </div>
+            </a>
+            <script>
+                AOS.init();
+              </script>
+        </body>
+    </html>

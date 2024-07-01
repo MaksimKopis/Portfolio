@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleFlexing.css">
+</head>
+<body>
+    <div class="Body1">
+            <div class="Cubes">
+        <div class="mentos"></div>
+    </div>
+    </div>
+    <div class="Body2">
+        <div class="mentos"></div>
+        <div class="mentos"></div>
+        <div class="mentos"></div>
+</div>
+    <div class="Body3">
+        <div class="mentos"></div>
+        <div class="Cubes">
+            <div class="mentos"></div>
+        </div>
+    </div>
+    <div class="Body4">
+        <div class="Cubes3">
+    <div class="mentos2"></div>
+</body>
+</html>
